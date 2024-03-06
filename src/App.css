@@ -1,0 +1,215 @@
+/* General Styles */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(135deg, #ff69b4, #8a2be2, #4b0082);
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card img {
+  height: 250px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.textbox {
+  width: calc(100% - 40px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.delete-button,
+.complete-button,
+.button {
+  background-color: #065369;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #51c4d3;
+}
+
+.complete-button {
+  background-color: transparent;
+  color: #065369;
+  border: 1px solid #065369;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.delete-button {
+  background-color: transparent;
+  color: #065369;
+  border: 1px solid #065369;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.complete-button:hover {
+  background-color: #0b8511;
+  color: #ffffff;
+}
+.delete-button:hover {
+  background-color: #920606;
+  color: #ffffff;
+}
+
+.input-field {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  flex: 1;
+}
+
+/* Calendar Card Styles */
+.calendar-card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.calendar-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.date {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  flex-grow: 1;
+}
+
+/* Table Styles */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #065369;
+  color: white;
+}
+
+/* Animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.add-task-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+/* SignInButton styles */
+.clerk-sign-in-button {
+  background-color: #065369;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.clerk-sign-in-button:hover {
+  background-color: #51c4d3;
+}
+
+.header {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  padding: 0% !important;
+}
+
+.headercard {
+  padding: auto;
+  padding-bottom: 0.25%;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: auto;
+}
+.headercard h1 {
+  margin-left: 1.5em;
+}
+
+.cl-rootBox.cl-userButton-root {
+  padding-top: 10%;
+}
+.cl-avatarBox.cl-userButtonAvatarBox {
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  margin-right: 1.5em;
+}
