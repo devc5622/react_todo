@@ -1,6 +1,3 @@
-Certainly! Here's the updated Markdown with the React logo included:
-
-````markdown
 # ToDoList App
 
 <div align="center">
@@ -39,6 +36,7 @@ This is a simple ToDoList application built using **React.js** and **Clerk** for
    ```bash
    git clone https://github.com/devc5622/todolist-app.git
    ```
+
 ````
 
 2. Navigate to the project directory:
@@ -71,3 +69,4 @@ This is a simple ToDoList application built using **React.js** and **Clerk** for
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+````
